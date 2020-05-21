@@ -1,41 +1,18 @@
-# Babel Webpack Starter
+# Mind Mapping Application
 
-A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+An effective way to capture your thoughts, without having the worry to forget them.
 
-### Version
-1.1.0
+In this project i've uses babel webpack to convert Es6 modules to Es5, so as to make sure that it runs on all browsers.
 
-## Usage
+I hope you like it :)
 
-### Installation
+[
 
-Install the dependencies
+1. npm install - to install the dependencies ie node_modules
+2. npm build - compile and build
+3. npm start - to run in the browser
 
-```sh
-$ npm install
-```
+   ]
 
-### Serve
-To serve in the browser  - Runs webpack-dev-server
-
-```sh
-$ npm start
-```
-
-### Build
-Compile and build
-
-```sh
-$ npm run build
-```
-
-## More Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### License
-
-This project is licensed under the MIT License
+Here, the important thing to remember is that we are not including the app.js file but are including the app.bundle.js file
+because this is the file that has the converted version(ie Es5 and not Es6)
